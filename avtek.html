@@ -4,6 +4,11 @@
     <meta http-equiv='Content-Type' content='text/html;charset=utf-8'></meta>
     <link rel='stylesheet' type='text/css' href='http://www.x3dom.org/x3dom/release/x3dom.css'></link>
     <script type='text/javascript' src='http://www.x3dom.org/x3dom/release/x3dom.js'></script>
+
+ <!--Koda od primera-->
+    <script type='text/javascript' src='http://www.x3dom.org/download/x3dom.js'> </script> 
+    <link rel='stylesheet' type='text/css' href='http://www.x3dom.org/download/x3dom.css'></link> 
+
     <style>
         x3d
         {
@@ -12,6 +17,37 @@
         }</style>
   </head>
   <body>
+    
+    <!--Koda od primera-->
+    <x3d width='700px' height='500px'> 
+      <scene> 
+       <shape> 
+        <appearance> 
+        <material diffuseColor='1 0 0'></material> 
+        </appearance> 
+        <box></box> 
+    </shape> 
+    <transform translation='-3 0 0'> 
+    <shape> 
+        <appearance> 
+        <material diffuseColor='0 1 0'></material> 
+        </appearance> 
+        <cone></cone> 
+    </shape> 
+    </transform> 
+    <transform translation='3 0 0'> 
+    <shape> 
+        <appearance> 
+        <material diffuseColor='0 0 1'></material> 
+        </appearance> 
+        <sphere></sphere> 
+    </shape> 
+    </transform> 
+      </scene> 
+  </x3d> 
+<br>
+    
+    
     <x3d id='someUniqueId' showStat='false' showLog='false' x='0px' y='0px' width='700px' height='500px'>
       <scene>
         <navigationInfo avatarSize='0.25 1.75 0.75' type='"EXAMINE" "ANY"'></navigationInfo>
